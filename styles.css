@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: scroll; /* Ensure vertical scrollbar appears */
+}
+
+.test-image {
+    width: 100%; /* Covers full viewport width */
+    height: auto;
+    display: block;
+}
+
+/* Custom Scrollbar */
+
+/* Entire scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track of the scrollbar */
+body::-webkit-scrollbar-track {
+    background: #16171C;
+}
+
+/* Handle of the scrollbar */
+body::-webkit-scrollbar-thumb {
+    background: #E1B21C;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #E1B21C;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
